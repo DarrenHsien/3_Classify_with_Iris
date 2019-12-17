@@ -72,8 +72,16 @@ Different types of classify's method
 		-混淆矩陣
 			metrics.confusion_matrix
   	
+3.DecisionTree
 	
+	-分辨能力判定(資訊增益Information Gain ,IG (Pareant & Child))
+
+		-Gini吉尼不純度
+
+		-Entropy熵
+
+	-DecisionTreeClassifier(criterion='gini',max_depth=3)
 	
-	
-	
+		-max_depth : 允許決策樹向下延伸數量
+			
 	
