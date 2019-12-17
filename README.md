@@ -58,7 +58,20 @@ Different types of classify's method
 			
 			-poly 
 	
-	
+	-評估準確度
+  		
+		-準確度
+			metrics.classification_report
+				
+				-Precision
+				
+				-recall
+				
+				-f1-score
+		
+		-混淆矩陣
+			metrics.confusion_matrix
+  	
 	
 	
 	
